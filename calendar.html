@@ -143,13 +143,22 @@ body {
     margin: 0;
     padding: 0;
     background: white;
+    font-size: 10px;
+    line-height: 1.45;
   }
   * {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
-  .month-group { page-break-inside: avoid; }
-  .event-block { page-break-inside: avoid; }
+  .cal-logo        { height: 44px; }
+  .cal-header      { margin-bottom: 14px; padding-bottom: 10px; }
+  .cal-institution { font-size: 15px; }
+  .cal-subtitle    { font-size: 11px; margin: 6px 0 0; }
+  .cal-asof        { font-size: 10px; }
+  .month-label     { font-size: 9px; padding: 3px 5px 2px; margin: 0 0 5px; }
+  .month-group     { margin-bottom: 14px; page-break-inside: avoid; }
+  .event-block     { margin-bottom: 6px; page-break-inside: avoid; }
+  .cal-footer      { font-size: 9px; margin-top: 10px; padding-top: 8px; }
 }
   </style>
 </head>
