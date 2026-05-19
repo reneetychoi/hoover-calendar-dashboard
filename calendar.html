@@ -22,8 +22,8 @@
 
 body {
   font-family: var(--font);
-  font-size: 11px;
-  line-height: 1.5;
+  font-size: 12px;
+  line-height: 1.65;
   color: var(--text);
   background: var(--bg);
   max-width: 1020px;
@@ -46,7 +46,9 @@ body {
   margin: 0 auto 10px;
 }
 .cal-institution {
-  display: inline-block;
+  display: block;
+  width: 66%;
+  margin: 0 auto;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 4px;
@@ -56,12 +58,12 @@ body {
   border-bottom: 2px solid var(--cardinal);
 }
 .cal-subtitle {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
   margin: 9px 0 0;
 }
 .cal-asof {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text-secondary);
   margin: 4px 0 0;
 }
@@ -91,7 +93,7 @@ body {
 .month-group { margin-bottom: 20px; }
 .month-label {
   display: block;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -103,7 +105,7 @@ body {
 }
 
 /* Event blocks */
-.event-block { margin-bottom: 6px; }
+.event-block { margin-bottom: 10px; }
 .event-table { width: 100%; border-collapse: collapse; }
 .event-date {
   width: 34px;
@@ -126,7 +128,7 @@ body {
   border-top: 1px solid var(--rule);
   margin-top: 16px;
   padding-top: 10px;
-  font-size: 9px;
+  font-size: 10px;
   color: var(--text-secondary);
   text-align: center;
   line-height: 1.6;
@@ -172,7 +174,7 @@ body {
 <div class="event-block">
 <table class="event-table">
 <tr><td class="event-date">06/02</td><td class="event-content"><span class="event-name">Southern California Conference</span></td></tr>
-<tr><td class="event-date"></td><td class="event-content"><em class="event-speakers">Ayaan Hirsi Ali, Drew Endy, Ross Levine, and H.R. McMaster</em></td></tr>
+<tr><td class="event-date"></td><td class="event-content"><em class="event-speakers">Ayaan Hirsi Ali<br>Drew Endy<br>Ross Levine<br>H.R. McMaster</em></td></tr>
 <tr><td class="event-date"></td><td class="event-content event-venue">Waldorf Astoria Beverly Hills</td></tr>
 </table>
 </div>
@@ -207,7 +209,7 @@ body {
 <div class="event-block">
 <table class="event-table">
 <tr><td class="event-date">08/05</td><td class="event-content"><span class="event-name">Jackson Hole Conference</span></td></tr>
-<tr><td class="event-date"></td><td class="event-content"><em class="event-speakers">Nick Carter, Sir Niall Ferguson, Andy Hall, Allison Mariko Okamura,</em></td></tr>
+<tr><td class="event-date"></td><td class="event-content"><em class="event-speakers">Nick Carter<br>Sir Niall Ferguson<br>Andy Hall<br>Allison Mariko Okamura</em></td></tr>
 <tr><td class="event-date"></td><td class="event-content event-venue">Four Seasons Jackson Hole</td></tr>
 </table>
 </div></div>
@@ -235,7 +237,7 @@ body {
 <div class="event-block">
 <table class="event-table">
 <tr><td class="event-date">09/29</td><td class="event-content"><span class="event-name">Texas Conference</span></td></tr>
-<tr><td class="event-date"></td><td class="event-content"><em class="event-speakers">Steven Davis, Stephen Kotkin, Condoleezza Rice, Rishi Sunak, Philip Zelikow</em></td></tr>
+<tr><td class="event-date"></td><td class="event-content"><em class="event-speakers">Steven Davis<br>Stephen Kotkin<br>Condoleezza Rice<br>Rishi Sunak<br>Philip Zelikow</em></td></tr>
 <tr><td class="event-date"></td><td class="event-content event-venue">Old Parkland</td></tr>
 </table>
 </div></div>
@@ -286,7 +288,7 @@ body {
 <div class="event-block">
 <table class="event-table">
 <tr><td class="event-date">12/03</td><td class="event-content"><span class="event-name">Florida Conference</span></td></tr>
-<tr><td class="event-date"></td><td class="event-content"><em class="event-speakers">Ayaan Hirsi Ali, Drew Endy, other speakers TBA</em></td></tr>
+<tr><td class="event-date"></td><td class="event-content"><em class="event-speakers">Ayaan Hirsi Ali<br>Drew Endy<br>other speakers TBA</em></td></tr>
 <tr><td class="event-date"></td><td class="event-content event-venue">Four Seasons Palm Beach</td></tr>
 </table>
 </div>
@@ -303,8 +305,6 @@ body {
 <tr><td class="event-date"></td><td class="event-content"><em class="event-speakers">Speaker TBA</em></td></tr>
 </table>
 </div></div>
-  </td>
-  <td class="cal-col">
 <div class="month-group"><div class="month-label">February &#x27;27</div>
 <div class="event-block">
 <table class="event-table">
@@ -318,6 +318,8 @@ body {
 <tr><td class="event-date">02/23</td><td class="event-content event-venue">Waldorf Astoria</td></tr>
 </table>
 </div></div>
+  </td>
+  <td class="cal-col">
 <div class="month-group"><div class="month-label">March &#x27;27</div>
 <div class="event-block">
 <table class="event-table">
